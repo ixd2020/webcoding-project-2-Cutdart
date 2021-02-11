@@ -1,0 +1,643 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 70%;
+    position: fixed;
+    top: 0;
+    z-index: 51;
+}
+
+
+li, p {
+    display: inline;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav-side {
+    position: fixed;
+    z-index: 50;
+    height: 3em;
+    width: 100%;
+    background-color: #333333;
+    width: 100%;
+}
+
+.nav-text {
+    color: #d6d6d6;
+    font-size: 0.9vw;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.notif {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D7DDD8;
+    height: 30px;
+    top: 48px;
+    width: 100%;
+
+}
+
+.notif-text {
+    position: relative;
+    font-size: 1vw;
+    
+}
+
+.home-main{
+    position: relative;
+    top: 6vw;
+    left: 3vw;
+}
+
+.holiday-logo{
+    display: flex;
+    left: 25vw;
+    position: relative;
+    top: 1em;
+    height: 6vw;
+    
+}
+.holiday-text{
+    position: relative;
+}
+
+h2 {
+    position: relative;
+    top: 4vw;
+    font-size: 3vw;
+}
+
+.holiday-blue {
+    position: relative;
+    top: 5vw;
+    left: 18vw;
+    font-size: 1.3vw;
+    color: blue;
+    font-weight: lighter;
+}
+
+.holiday-pic {
+    position: absolute;
+    width: 120%;
+    right: -5vw;
+    z-index: -5;
+    top: -3vw;
+}
+
+.iphone-div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50vw;
+    right: 38vw;
+}
+.iphone-text{
+    position: relative;
+    font-size: 4vw;
+}
+
+.iphone-head{
+    font-size: 2vw;
+}
+
+.iphone-sub{
+    position: relative;
+    left: 4vw;
+    font-weight: lighter;
+}
+
+.iphone-text1{
+    position: relative;
+    left: 2vw;
+    top: 0.4vw;
+    font-weight: lighter;
+    font-size: 1.3vw;
+    color: blue;
+}
+.iphone-text2{
+    position: relative;
+    left: 15vw;
+    top: -1.1vw;
+    font-weight: lighter;
+    font-size: 1.3vw;
+    color: blue;
+}
+
+.iphone-pic {
+    position: absolute;
+    top: -6vw;
+    z-index: -6;
+}
+
+
+.pro-div {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 40vw;
+    top: 90vw;
+    display: flex;
+    justify-content: center;
+}
+
+.pro-title {
+    position: relative;
+    color: white;
+    font-size: 4vw;
+    z-index: 0;
+    top: 1.5vw;
+}
+
+.pro-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.iphonepro-text {
+    font-weight: lighter;
+    position: relative;
+    color: white;
+    font-size: 2vw;
+    left: 6vw;
+    top: 2vw;
+}
+
+.iphonepro-text1 {
+    font-weight: lighter;
+    position: relative;
+    color:blue;
+    left: 6vw;
+    top: 3.5vw;
+}
+
+.iphonepro-text2 {
+    font-weight: lighter;
+    position: relative;
+    color: blue;
+    left: 16vw;
+    top: 2.3vw;
+}
+
+
+
+
+
+.iphonepro-pic {
+    position: absolute;
+
+    z-index: 2;
+
+
+}
+
+
+
+
+
+
+
+.ecosystem-r1 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 135vw;
+    height: 41vw;
+    justify-content: space-between;
+}
+
+.ecosystem-r2 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 176vw;
+    height: 41vw;
+    justify-content: space-between;
+}
+
+.ecosystem-r3 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 217vw;
+    height: 41vw;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+.ecosystem1 {
+    width: 48%;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+.eco-text1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    top: 2vw;
+}
+
+
+.airpods-head1 {
+    font-size: 2vw;
+}
+
+.airpods-head2 {
+    font-size: 2vw;
+    position: relative;
+    left: 3vw;
+}
+.airpods-head3 {
+    font-size: 2vw;
+    position: relative;
+    left: 1vw;
+}
+
+.airpods-text {
+    position: relative;
+    left: 8vw;
+}
+
+.airpods-text {
+    font-weight: lighter;
+    font-size: 1.4vw;
+    top: 1vw;
+    color: blue;
+}
+
+
+.eco-pic1 {
+    z-index: -10;
+    height: 40vw;
+    width: 44vw;
+    object-fit: cover;
+}
+
+.iphonepro-head {
+    font-size: 2vw;
+}
+
+
+
+
+
+.ecosystem2 {
+    width: 48%;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.eco-text2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    top: 2vw;
+    color: white;
+}
+
+.watch-icon {
+    width: 25%;
+}
+
+.watch-head {
+    position: relative;
+    top: 1vw;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+.watch-head1 {
+    position: relative;
+    top: 2vw;
+    right: 4vw;
+    font-size: 1.4vw;
+    font-weight: lighter;
+    color: blue;
+}
+
+.watch-head2 {
+    position: relative;
+    top: 0.4vw;
+    left: 4vw;
+    font-size: 1.4vw;
+    font-weight: lighter;
+    color: blue;
+}
+
+.ecosystem3 {
+    width: 48%;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f7;
+}
+
+.eco-text3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    top: 2vw;
+}
+
+.val-1 {
+    font-size: 1vw;
+}
+
+.val-2 {
+    font-size: 3vw;
+    top: 0.5vw;
+}
+.val-3 {
+    position: relative;
+    top: -0.5vw;
+    font-size: 3vw;
+}
+.val-4 {
+    position: relative;
+    top: 0.5vw;
+    color: blue;
+}
+
+.ecosystem4 {
+    width: 48%;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f7;
+}
+
+.airpodmax {
+    position: relative;
+    width: 100%;
+}
+
+.eco-text4 {
+    position: absolute;
+    top: 3vw;
+    z-index: 2;
+}
+
+.airpodmax-text {
+    top: 3vw;
+    font-size: 3vw;
+}
+
+.airpodmax-text1 {
+    position: relative;
+    font-weight: lighter;
+    font-size: 1vw;
+    top: 1vw;
+    left: 2vw;
+    color: blue;
+}
+
+.airpodmax-text2 {
+    position: relative;
+    font-weight: lighter;
+    font-size: 1vw;
+    top: -0.2vw;
+    left: 12vw;
+    color: blue;
+}
+
+.ecosystem5 {
+    width: 48%;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    background-color:#fbfbfd;
+}
+
+.eco-text5 {
+    position: absolute;
+    top: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one {
+    position: absolute;
+    top: 15vw;
+    width: 30%;
+}
+
+.one-text1 {
+    position: relative;
+    font-weight: lighter;
+    top: 1vw;
+}
+
+.one-text2 {
+    position: relative;
+    font-weight: lighter;
+    top: 1vw;
+}
+
+.one-text3 {
+    position: relative;
+    font-weight: lighter;
+    top: 2vw;
+    right: 4vw;
+    color: blue;
+}
+
+.one-text4 {
+    position: relative;
+    font-weight: lighter;
+    top: 0.6vw;
+    left: 5vw;
+    color: blue;
+}
+
+.ecosystem6 {
+    width: 48%;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.eco-text6 {
+    position: absolute;
+    top: 25vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tvtext1 {
+    position: relative;
+    font-weight: lighter;
+    top: 1vw;
+}
+
+.tvtext2 {
+    position: relative;
+    font-weight: lighter;
+    top: 1vw;
+}
+
+.tvtext3 {
+    position: relative;
+    font-weight: lighter;
+    top: 1vw;
+}
+
+.tvtext4 {
+    position: relative;
+    font-weight: lighter;
+    top: 2vw;
+    right: 4vw;
+}
+
+.tvtext5 {
+    position: relative;
+    font-weight: lighter;
+    top: 0.9vw;
+    left: 4vw;
+}
+
+
+footer {
+    position: absolute;
+    
+    top:260vw;
+    left:0;
+    height: 40vw;
+    display: flex;
+    justify-self: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1vw;
+    background-color: #f5f5f7;
+}
+
+.footer {
+    position: relative;
+    left: 12vw;
+
+    background-color: #f5f5f7;
+}
+
+
+.footer-shape {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 2vw;
+}
+
+.footer1 {
+    width: 15vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+
+.footer2 {
+    width: 15vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+
+.footer3 {
+    width: 15vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+
+
+.footer4 {
+    width: 15vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+
+.footer5 {
+    width: 15vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+
+
+
+.footer-space {
+    margin-top: 0.8vw;
+}
+
+.footer-head {
+    font-weight: bold;
+}
+
+.line {
+    position: relative;
+    height:0.1vw;
+    width: 100%;
+    background-color: grey;
+    top: 5vw;
+}
